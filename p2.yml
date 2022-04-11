@@ -1,7 +1,7 @@
 ---
 - name: Deploy a jar file
   hosts: xubuntu
-  remote user: gokul
+  remote_user: gokul
   tasks:
     - name: Copy jar file to home directory
       copy:
